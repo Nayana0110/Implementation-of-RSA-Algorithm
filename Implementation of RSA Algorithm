@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Pr4 {
     public static void main(String args[]){
         int p,q,n,z,e,d=0,i;
+
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Msg");
         int msg=sc.nextInt();
         System.out.println("The msg is:" + msg);
         double c;
